@@ -71,13 +71,13 @@ Ce point d'arrêt est atteint lors du démarrage de l'application. La méthode S
 
 **Informations :**
 - **Fichier :** CartController.cs
-- **Namespace :** [À compléter]
+- **Namespace :** P2FixAnAppDotNetCode.Controllers
 - **Classe :** CartController
-- **Méthode :** [À compléter]
+- **Méthode :** CartController(ICart pCart, IProductService productService)
 - **Ligne :** 15
 
 **Description :**
-[Si ce point n'est PAS atteint lors de l'affichage des produits, notez : "Ce point d'arrêt n'a pas été atteint lors de l'affichage de la page d'accueil. Il est probablement appelé lors d'actions sur le panier."]
+[Ce point d'arrêt n'a pas été atteint lors de l'affichage de la page d'accueil. Il est probablement appelé lors d'actions sur le panier."]
 
 ---
 
@@ -85,27 +85,25 @@ Ce point d'arrêt est atteint lors du démarrage de l'application. La méthode S
 
 **Informations :**
 - **Fichier :** OrderController.cs
-- **Namespace :** [À compléter]
+- **Namespace :**  P2FixAnAppDotNetCode.Controllers
 - **Classe :** OrderController
-- **Méthode :** [À compléter]
+- **Méthode :** OrderController(ICart pCart, IOrderService service, IStringLocalizer<OrderController> localizer)
 - **Ligne :** 17
 
 **Description :**
-[Même principe - notez si ce point est atteint ou non]
 
----
 
 ### Point d'Arrêt 5 : CartSummaryViewComponent.cs (ligne 12)
 
 **Informations :**
 - **Fichier :** CartSummaryViewComponent.cs
-- **Namespace :** 
+- **Namespace :** P2FixAnAppDotNetCode.Components
 - **Classe :** CartSummaryViewComponent
-- **Méthode :** 
+- **Méthode :** CartSummaryViewComponent(ICart cart)
 - **Ligne :** 12
 
 **Description :**
-Ce composant est probablement responsable de l'affichage du résumé du panier dans l'interface.
+Ce composant est  responsable de l'affichage du résumé du panier dans l'interface.
 
 **Variables observées :**
 - [Variables liées au panier]
