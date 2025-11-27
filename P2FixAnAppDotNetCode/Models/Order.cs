@@ -9,6 +9,8 @@ namespace P2FixAnAppDotNetCode.Models
     {
         [BindNever]
         public int OrderId { get; set; }
+
+        // désormais on stocke des CartLine (Product + Quantity)
         [BindNever]
         public ICollection<CartLine> Lines { get; set; }
 
